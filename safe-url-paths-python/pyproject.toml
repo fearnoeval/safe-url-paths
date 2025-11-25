@@ -1,0 +1,19 @@
+[project]
+name = "safe-url-paths-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tim Walter", email = "tim@decentmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "wasmtime==25.0.0",
+]
+
+[project.scripts]
+main = "safe_url_paths_python:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
