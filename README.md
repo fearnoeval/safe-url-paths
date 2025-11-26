@@ -2,6 +2,8 @@
 
 A proof-of-concept URL path interpolation library written in Rust compiled to vanilla WebAssembly (`wasm32-unknown-unknown`) with no bindings to a specific operating system, architecture, or host language runtime
 
+Note that this library alone is not sufficient for handling arbitrary user input, but may be used in conjunction with other checks, restrictions, etc.
+
 ```rust
 // - Example host usage
 //   - Dynamic (interpolated) portions are percent-encoded in accordance with
